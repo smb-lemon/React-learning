@@ -1,20 +1,20 @@
-import Button from "./Button.jsx";
-import ProductTab from "./ProductTab.jsx";
-import Form from "./Form.jsx";
-import Counter from "./Counter.jsx";
-import LikeButton from "./LikeButton.jsx";
-import LudoBoard from "./LudoBoard.jsx";
-import TodoList from "./TodoList.jsx";
-import BucketList from "./BucketList.jsx";
-import TicketLottery from "./TicketLottery.jsx";
-import FormSample from "./FormSample.jsx";
-import CommentForm from "./CommentForm.jsx";
-import Joker from "./Joker.jsx";
+ import Button from "./Button.jsx";
+// import ProductTab from "./ProductTab.jsx";
+ import Form from "./Form.jsx";
+// import Counter from "./Counter.jsx";
+// import LikeButton from "./LikeButton.jsx";
+// import LudoBoard from "./LudoBoard.jsx";
+// import TodoList from "./TodoList.jsx";
+// import BucketList from "./BucketList.jsx";
+// import TicketLottery from "./TicketLottery.jsx";
+ import FormSample from "./FormSample.jsx";
+// import CommentForm from "./CommentForm.jsx";
+// import Joker from "./Joker.jsx";
 
 function App(){
   return (
   <>
- <Joker />
+ <FormSample />
   
   </>
   );
