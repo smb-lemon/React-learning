@@ -5,7 +5,26 @@ Create a React project. Then Open firebase website and follow the process of cre
 
 [Terminal Command] `npm install firebase`
 
-**Then add the code as javascript file and save it in src**
+**Then add the code as javascript file and save it in src**<br>
+*Sample :*<br>
+```
+import { initializeApp } from "firebase/app";
+import { getAuth, GoogleAuthProvider} from "firebase/auth";
+import {getFirestore} from "firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "1::web:",
+  measurementId: ""
+};
+
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+```
 
 **To check firebase installation, you can check in package.json file**
 
