@@ -1,4 +1,5 @@
 import "./Weather_app.css"
+import DarkMode from "./DarkMode.jsx";
 import SearchBox from "./SearchBox.jsx";
 import InfoBox from "./InfoBox.jsx";
 import { useState } from "react";
@@ -22,6 +23,7 @@ export default function Weather_app(){
             <h2>Weather App by Lemon</h2>
             <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
+            <DarkMode/>
         </div>
     );
 }
